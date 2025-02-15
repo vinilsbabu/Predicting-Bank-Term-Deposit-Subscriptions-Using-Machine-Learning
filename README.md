@@ -44,9 +44,9 @@ The dataset consists of 45,211 entries and 17 features. Below are the key featur
 
 ### 3. Feature Engineering
 - **Encoding**: Encoded the target variable (`yes` -> 1, `no` -> 0).
-- **Feature Selection**: Selected key features based on Random Forest and Chi-Square analysis.
-  - Selected features include: `duration`, `job_retired`, `housing_yes`, `month_mar`, `poutcome_success`.
-- **Feature Scaling**: Applied Min-Max Scaling and Standardization (Z-Score Scaling).
+- **Feature Selection**: Selected key features based on Random Forest.
+  - Selected features include: 'month_1', 'poutcome_2', 'month_7', 'previous', 'duration', 'education_1', 'day', 'balance', 'education_2', 'loan_1', 'month_8', 'job_4', 'job_9', 'age', 'pdays', 'housing_1', 'marital_1', 'month_10', 'campaign'.
+- **Feature Scaling**: Applied Min-Max Scaling.
 
 ### 4. Machine Learning Models
 Implemented the following classification models:
@@ -60,13 +60,6 @@ Implemented the following classification models:
 - **Multi-Layer Perceptron (MLP)**
 - **Naive Bayes**
 
-For regression tasks:
-- **Linear Regression**
-- **Support Vector Regressor (SVR)**
-- **Random Forest Regressor**
-- **Gradient Boosting Regressor**
-- **AdaBoost Regressor**
-- **MLP Regressor**
 
 ### 5. Model Evaluation
 - **Classification Metrics**: Accuracy, Precision, Recall, F1-Score, ROC AUC Score.
